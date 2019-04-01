@@ -14,7 +14,7 @@ import (
 
 const (
 	address = "localhost:50051"
-	defaultFilename = "consginment.json"
+	defaultFilename = "consignment.json"
 )
 
 func parseFile(file string) (*pb.Consignment, error) {
